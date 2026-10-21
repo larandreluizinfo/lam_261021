@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jogo da Memória | Projeto LAM</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topo">
+  <h1>Jogo da Memória</h1>
+  <p class="sub">Projeto LAM &middot; 4&ordm; A</p>
+</header>
+
+<main>
+  <section class="painel">
+    <div class="placar">
+      <div class="item"><span class="rotulo">Jogadas</span><strong id="jogadas">0</strong></div>
+      <div class="item"><span class="rotulo">Pares</span><strong id="pares">0 / 8</strong></div>
+      <div class="item"><span class="rotulo">Tempo</span><strong id="tempo">00:00</strong></div>
+    </div>
+    <button id="reiniciar" class="botao" type="button">Jogar de novo</button>
+  </section>
+
+  <section id="tabuleiro" class="tabuleiro" aria-label="Tabuleiro do jogo da memória"></section>
+
+  <p id="aviso" class="aviso" role="status" aria-live="polite"></p>
+</main>
+
+<footer class="rodape">
+  <p>Criado por: Alice Navarro, Alice Frassi, Maria Luiza e Livia Furlan</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
